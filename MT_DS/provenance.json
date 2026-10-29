@@ -1,0 +1,19 @@
+{
+  "parent_project": "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm",
+  "created_at": "2026-10-21T17:07:04+08:00",
+  "parent_source_sha256": {
+    "code/train.py": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7",
+    "code/data.py": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d",
+    "code/objectives.py": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384",
+    "code/evaluate.py": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421",
+    "code/networks/vnet_ds.py": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2",
+    "code/networks/__init__.py": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+  },
+  "ablation": "Remove per-objective loss normalization only; keep Mean Teacher, four-scale deep supervision and all training hyperparameters",
+  "original_provenance": {
+    "source": "/aita_data/home/aita_duanxuelong/DuCiSC-main/DuCiSC-main/code/networks/VNet.py",
+    "source_sha256": "3875141b68fd9823798f54bbb50bf99031ec075f852d73feb0f15bba57feb93a",
+    "preserved": "VNet blocks, four deep supervision heads, and output ordering",
+    "removed": "prototype feature outputs and unused network classes"
+  }
+}

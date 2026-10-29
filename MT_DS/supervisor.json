@@ -1,0 +1,20 @@
+{
+  "pid": 2739633,
+  "started_at": "20261021_171332",
+  "timezone": "Asia/Shanghai",
+  "log": "/aita_data/home/aita_duanxuelong/MT_DS/launch_logs/20261021_171332_supervisor.log",
+  "command": [
+    "/aita_data/home/aita_duanxuelong/.conda/envs/SSL29/bin/python",
+    "-u",
+    "/aita_data/home/aita_duanxuelong/MT_DS/scripts/run_six.py",
+    "--gpus",
+    "4",
+    "6",
+    "2",
+    "3",
+    "5",
+    "6",
+    "--seed",
+    "42"
+  ]
+}

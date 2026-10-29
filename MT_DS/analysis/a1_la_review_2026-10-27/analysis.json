@@ -1,0 +1,1839 @@
+{
+  "scope": "Existing records and labels only; no training, model load, inference, or result overwrite",
+  "available_result": "A1 best at 14800; final 15000 validation/test missing",
+  "baseline_best_iteration": 13000,
+  "a1_best_iteration": 14800,
+  "metrics": {
+    "dice": {
+      "baseline": 0.8775483187452146,
+      "a1": 0.8732108924928447,
+      "delta": -0.00433742625236988,
+      "improved_cases": 14,
+      "worsened_cases": 6,
+      "baseline_median": 0.8877250883265011,
+      "a1_median": 0.8846163278360377
+    },
+    "jc": {
+      "baseline": 0.7846697088561512,
+      "a1": 0.7810201863096128,
+      "delta": -0.0036495225465383863,
+      "improved_cases": 14,
+      "worsened_cases": 6,
+      "baseline_median": 0.7981299177055856,
+      "a1_median": 0.7931049910505291
+    },
+    "hd95": {
+      "baseline": 10.98546687151104,
+      "a1": 11.813214115877491,
+      "delta": 0.8277472443664511,
+      "improved_cases": 12,
+      "worsened_cases": 8,
+      "baseline_median": 8.035533905932738,
+      "a1_median": 8.586345663721424
+    },
+    "asd": {
+      "baseline": 2.818178468721123,
+      "a1": 3.191084227220876,
+      "delta": 0.37290575849975305,
+      "improved_cases": 15,
+      "worsened_cases": 5,
+      "baseline_median": 1.8498951870370803,
+      "a1_median": 1.845056859791585
+    }
+  },
+  "case_deltas": [
+    {
+      "case": "UPT6DX9IQY9JAZ7HJKA7",
+      "baseline_dice": 0.8600418060935016,
+      "a1_dice": 0.8823564118274446,
+      "delta_dice": 0.02231460573394306,
+      "baseline_jc": 0.7544503041346128,
+      "a1_jc": 0.7894792411149373,
+      "delta_jc": 0.0350289369803245,
+      "baseline_hd95": 6.708203932499369,
+      "a1_hd95": 5.196152422706632,
+      "delta_hd95": -1.5120515097927374,
+      "baseline_asd": 2.4072749582808672,
+      "a1_asd": 1.9749731122235397,
+      "delta_asd": -0.4323018460573276
+    },
+    {
+      "case": "UTBUJIWZMKP64E3N73YC",
+      "baseline_dice": 0.8907503211003702,
+      "a1_dice": 0.8844286856579787,
+      "delta_dice": -0.006321635442391504,
+      "baseline_jc": 0.8030205805279026,
+      "a1_jc": 0.7928033593976253,
+      "delta_jc": -0.010217221130277343,
+      "baseline_hd95": 7.0,
+      "a1_hd95": 9.486832980505138,
+      "delta_hd95": 2.486832980505138,
+      "baseline_asd": 1.5858943262996956,
+      "a1_asd": 1.5752809302257995,
+      "delta_asd": -0.010613396073896109
+    },
+    {
+      "case": "ULHWPWKKLTE921LQLH1P",
+      "baseline_dice": 0.8800034053058923,
+      "a1_dice": 0.880674578441654,
+      "delta_dice": 0.0006711731357617046,
+      "baseline_jc": 0.7857197151088104,
+      "a1_jc": 0.7867904735117712,
+      "delta_jc": 0.0010707584029607808,
+      "baseline_hd95": 11.222740546680551,
+      "a1_hd95": 11.313708498984761,
+      "delta_hd95": 0.09096795230420973,
+      "baseline_asd": 1.2847063659023044,
+      "a1_asd": 1.2738474047903054,
+      "delta_asd": -0.01085896111199891
+    },
+    {
+      "case": "V0MZOWJ6MU3RMRCV9EXR",
+      "baseline_dice": 0.9143218505281621,
+      "a1_dice": 0.914900169947066,
+      "delta_dice": 0.0005783194189039609,
+      "baseline_jc": 0.842166576690304,
+      "a1_jc": 0.8431483856212887,
+      "delta_jc": 0.0009818089309846512,
+      "baseline_hd95": 5.0990195135927845,
+      "a1_hd95": 5.0,
+      "delta_hd95": -0.09901951359278449,
+      "baseline_asd": 1.2039225640905376,
+      "a1_asd": 1.1901243539125081,
+      "delta_asd": -0.013798210178029402
+    },
+    {
+      "case": "VDOF02M8ZHEAADFMS6NP",
+      "baseline_dice": 0.8942872075259307,
+      "a1_dice": 0.8956807713127228,
+      "delta_dice": 0.001393563786792118,
+      "baseline_jc": 0.8087879724398713,
+      "a1_jc": 0.8110705202312138,
+      "delta_jc": 0.002282547791342515,
+      "baseline_hd95": 6.0,
+      "a1_hd95": 5.477225575051661,
+      "delta_hd95": -0.5227744249483388,
+      "baseline_asd": 1.7994814302533977,
+      "a1_asd": 1.6159609380034854,
+      "delta_asd": -0.1835204922499123
+    },
+    {
+      "case": "VG4C826RAAKVMV9BQLVD",
+      "baseline_dice": 0.8257476295641737,
+      "a1_dice": 0.8530745444443821,
+      "delta_dice": 0.02732691488020844,
+      "baseline_jc": 0.7032113797289552,
+      "a1_jc": 0.743792493498296,
+      "delta_jc": 0.040581113769340815,
+      "baseline_hd95": 13.564659966250536,
+      "a1_hd95": 9.433981132056603,
+      "delta_hd95": -4.130678834193933,
+      "baseline_asd": 4.15468118853225,
+      "a1_asd": 2.9197331338242036,
+      "delta_asd": -1.2349480547080467
+    },
+    {
+      "case": "VIXBEFTNVHZWKAKURJBN",
+      "baseline_dice": 0.9260325689597873,
+      "a1_dice": 0.9284719033729754,
+      "delta_dice": 0.00243933441318811,
+      "baseline_jc": 0.862253865615701,
+      "a1_jc": 0.8664932877594491,
+      "delta_jc": 0.004239422143748062,
+      "baseline_hd95": 3.605551275463989,
+      "a1_hd95": 3.1622776601683795,
+      "delta_hd95": -0.4432736152956096,
+      "baseline_asd": 1.250411484758729,
+      "a1_asd": 1.1969482107647438,
+      "delta_asd": -0.053463273993985316
+    },
+    {
+      "case": "VQ2L3WM8KEVF6L44E6G9",
+      "baseline_dice": 0.8621007178808657,
+      "a1_dice": 0.8707813439567047,
+      "delta_dice": 0.00868062607583897,
+      "baseline_jc": 0.7576248016215962,
+      "a1_jc": 0.7711361650788368,
+      "delta_jc": 0.013511363457240577,
+      "baseline_hd95": 12.0,
+      "a1_hd95": 8.06225774829855,
+      "delta_hd95": -3.937742251701451,
+      "baseline_asd": 2.406894132062888,
+      "a1_asd": 1.6739181102957152,
+      "delta_asd": -0.7329760217671728
+    },
+    {
+      "case": "WBG9WYZ1B25WDT5WAT8T",
+      "baseline_dice": 0.9190290055222524,
+      "a1_dice": 0.9247893920501201,
+      "delta_dice": 0.0057603865278677,
+      "baseline_jc": 0.8501884048852443,
+      "a1_jc": 0.8601006958194264,
+      "delta_jc": 0.00991229093418211,
+      "baseline_hd95": 7.0710678118654755,
+      "a1_hd95": 4.898979485566356,
+      "delta_hd95": -2.1720883262991197,
+      "baseline_asd": 2.5037194088930876,
+      "a1_asd": 2.1435300854100623,
+      "delta_asd": -0.36018932348302535
+    },
+    {
+      "case": "WMDG2EFA6L2SNDZXIRU0",
+      "baseline_dice": 0.9268352722165688,
+      "a1_dice": 0.9256382476802908,
+      "delta_dice": -0.001197024536278013,
+      "baseline_jc": 0.8636467899302853,
+      "a1_jc": 0.8615703655511731,
+      "delta_jc": -0.0020764243791122627,
+      "baseline_hd95": 3.7416573867739413,
+      "a1_hd95": 4.358898943540674,
+      "delta_hd95": 0.6172415567667326,
+      "baseline_asd": 1.4181133583719296,
+      "a1_asd": 3.583302603610683,
+      "delta_asd": 2.1651892452387536
+    },
+    {
+      "case": "WNPKE0W404QE9AELX1LR",
+      "baseline_dice": 0.8357371320262986,
+      "a1_dice": 0.84649658203125,
+      "delta_dice": 0.010759450004951376,
+      "baseline_jc": 0.717825119236884,
+      "a1_jc": 0.7338483517646436,
+      "delta_jc": 0.016023232527759612,
+      "baseline_hd95": 11.224972160321824,
+      "a1_hd95": 10.770329614269007,
+      "delta_hd95": -0.45464254605281695,
+      "baseline_asd": 3.26291043780753,
+      "a1_asd": 3.1535437464100573,
+      "delta_asd": -0.10936669139747268
+    },
+    {
+      "case": "WSJB9P4JCXUVHBOYFVWL",
+      "baseline_dice": 0.8344583886077881,
+      "a1_dice": 0.7802396575699635,
+      "delta_dice": -0.0542187310378246,
+      "baseline_jc": 0.7159404524485808,
+      "a1_jc": 0.6396663593895427,
+      "delta_jc": -0.0762740930590381,
+      "baseline_hd95": 29.099815210443477,
+      "a1_hd95": 54.07217370524065,
+      "delta_hd95": 24.972358494797174,
+      "baseline_asd": 8.198729193376945,
+      "a1_asd": 16.007449289828564,
+      "delta_asd": 7.808720096451619
+    },
+    {
+      "case": "WW8F5CO4S4K5IM5Z7EXX",
+      "baseline_dice": 0.8997434981277977,
+      "a1_dice": 0.8965241204971561,
+      "delta_dice": -0.0032193776306416177,
+      "baseline_jc": 0.8177579469848981,
+      "a1_jc": 0.8124546599977092,
+      "delta_jc": -0.00530328698718896,
+      "baseline_hd95": 9.0,
+      "a1_hd95": 9.1104335791443,
+      "delta_hd95": 0.11043357914429919,
+      "baseline_asd": 1.764866700956069,
+      "a1_asd": 1.3527576937228925,
+      "delta_asd": -0.41210900723317656
+    },
+    {
+      "case": "X18LU5AOBNNDMLTA0JZL",
+      "baseline_dice": 0.8118147552600663,
+      "a1_dice": 0.8268132450969756,
+      "delta_dice": 0.014998489836909323,
+      "baseline_jc": 0.6832392161524896,
+      "a1_jc": 0.7047584211478077,
+      "delta_jc": 0.02151920499531812,
+      "baseline_hd95": 39.52214569073901,
+      "a1_hd95": 43.02324952859791,
+      "delta_hd95": 3.5011038378588992,
+      "baseline_asd": 9.519843965364569,
+      "a1_asd": 10.50703411647662,
+      "delta_asd": 0.9871901511120509
+    },
+    {
+      "case": "XYDLYJ5CS19FDBVLJIPI",
+      "baseline_dice": 0.9294242918253085,
+      "a1_dice": 0.9345734917454257,
+      "delta_dice": 0.005149199920117198,
+      "baseline_jc": 0.8681537276891487,
+      "a1_jc": 0.8771825034431352,
+      "delta_jc": 0.009028775753986529,
+      "baseline_hd95": 4.898979485566356,
+      "a1_hd95": 4.0,
+      "delta_hd95": -0.8989794855663558,
+      "baseline_asd": 1.1351796477155203,
+      "a1_asd": 1.008772889970059,
+      "delta_asd": -0.12640675774546128
+    },
+    {
+      "case": "Y7ZU0B2APPF54WG6PDMF",
+      "baseline_dice": 0.9182403207089356,
+      "a1_dice": 0.9217542985297782,
+      "delta_dice": 0.0035139778208426176,
+      "baseline_jc": 0.8488394772771601,
+      "a1_jc": 0.8548648024035128,
+      "delta_jc": 0.006025325126352676,
+      "baseline_hd95": 4.242640687119285,
+      "a1_hd95": 4.123105625617661,
+      "delta_hd95": -0.11953506150162418,
+      "baseline_asd": 1.5307568463438703,
+      "a1_asd": 1.4803527344643033,
+      "delta_asd": -0.05040411187956706
+    },
+    {
+      "case": "YDKD1HVHSME6NVMA8I39",
+      "baseline_dice": 0.7492371047898667,
+      "a1_dice": 0.6128252839725609,
+      "delta_dice": -0.13641182081730585,
+      "baseline_jc": 0.5990240897448368,
+      "a1_jc": 0.4417794506286538,
+      "delta_jc": -0.15724463911618297,
+      "baseline_hd95": 18.138357147217054,
+      "a1_hd95": 17.0,
+      "delta_hd95": -1.1383571472170537,
+      "baseline_asd": 4.561900822614743,
+      "a1_asd": 4.954274345811019,
+      "delta_asd": 0.3923735231962757
+    },
+    {
+      "case": "Z9GMG63CJLL0VW893BB1",
+      "baseline_dice": 0.884699855552632,
+      "a1_dice": 0.8844808799593497,
+      "delta_dice": -0.0002189755932823223,
+      "baseline_jc": 0.7932392548832686,
+      "a1_jc": 0.7928872433196112,
+      "delta_jc": -0.00035201156365738395,
+      "baseline_hd95": 5.916079783099616,
+      "a1_hd95": 6.4031242374328485,
+      "delta_hd95": 0.4870444543332324,
+      "baseline_asd": 1.8515897692730172,
+      "a1_asd": 1.9566798661312967,
+      "delta_asd": 0.10509009685827952
+    },
+    {
+      "case": "ZIJLJAVQV3FJ6JSQOH1E",
+      "baseline_dice": 0.9118021351306766,
+      "a1_dice": 0.9149624660503691,
+      "delta_dice": 0.003160330919692478,
+      "baseline_jc": 0.8379010514233739,
+      "a1_jc": 0.8432542077321751,
+      "delta_jc": 0.005353156308801177,
+      "baseline_hd95": 10.295630140987,
+      "a1_hd95": 9.539392014169456,
+      "delta_hd95": -0.7562381268175447,
+      "baseline_asd": 1.8482006048011435,
+      "a1_asd": 1.7334338534518734,
+      "delta_asd": -0.11476675134927006
+    },
+    {
+      "case": "ZQPMJ4XEC5A4BISD45P1",
+      "baseline_dice": 0.8766591081774148,
+      "a1_dice": 0.8847517757127258,
+      "delta_dice": 0.008092667535311016,
+      "baseline_jc": 0.780403450599099,
+      "a1_jc": 0.793322738781447,
+      "delta_jc": 0.012919288182347999,
+      "baseline_hd95": 11.357816691600547,
+      "a1_hd95": 11.832159566199232,
+      "delta_hd95": 0.47434287459868507,
+      "baseline_asd": 2.6744921687233614,
+      "a1_asd": 2.519767125089798,
+      "delta_asd": -0.15472504363356343
+    }
+  ],
+  "matched_validation_count": 71,
+  "matched_improvements": {
+    "dice": 36,
+    "hd95": 16,
+    "asd": 12
+  },
+  "warmup_max_abs_differences": {
+    "loss_supervised": 7.450580596923828e-09,
+    "ce": 5.960464477539063e-08,
+    "dice": 0.0,
+    "loss_consistency": 0.0,
+    "gradient_norm": 0.0
+  },
+  "phases": [
+    {
+      "first_step": 1,
+      "last_step": 2000,
+      "training": {
+        "loss_supervised": 0.10752526099853847,
+        "loss_consistency": 0.011090447163598529,
+        "loss_boundary": 0.7020558916514192,
+        "boundary_half": 0.7211559841881937,
+        "boundary_full": 0.6829558001525367,
+        "boundary_band_fraction": 0.06261047902540189
+      },
+      "baseline_supervised": 0.1075252609800047,
+      "gradients": {
+        "combined_observed_parameters": {
+          "count": 11,
+          "median_cosine": 0.2546768089394867,
+          "negative_cosines": 1,
+          "median_weighted_ratio": 0.0,
+          "max_weighted_ratio": 0.0,
+          "regional_gradient_projection_reversals": 0
+        },
+        "half_upsampling": {
+          "count": 11,
+          "median_cosine": 0.6062472855208615,
+          "negative_cosines": 0,
+          "median_weighted_ratio": 0.0,
+          "max_weighted_ratio": 0.0,
+          "regional_gradient_projection_reversals": 0
+        },
+        "final_conv": {
+          "count": 11,
+          "median_cosine": 0.16033213918230171,
+          "negative_cosines": 3,
+          "median_weighted_ratio": 0.0,
+          "max_weighted_ratio": 0.0,
+          "regional_gradient_projection_reversals": 0
+        }
+      }
+    },
+    {
+      "first_step": 2001,
+      "last_step": 4000,
+      "training": {
+        "loss_supervised": 0.04428033354692161,
+        "loss_consistency": 0.004818711759289726,
+        "loss_boundary": 0.46071547076106073,
+        "boundary_half": 0.49450687870383264,
+        "boundary_full": 0.4269240643084049,
+        "boundary_band_fraction": 0.06329586086794733
+      },
+      "baseline_supervised": 0.041619660006836055,
+      "gradients": {
+        "combined_observed_parameters": {
+          "count": 10,
+          "median_cosine": 0.629934541207944,
+          "negative_cosines": 0,
+          "median_weighted_ratio": 0.9188362947914458,
+          "max_weighted_ratio": 4.396664022618033,
+          "regional_gradient_projection_reversals": 0
+        },
+        "half_upsampling": {
+          "count": 10,
+          "median_cosine": 0.7289963164144637,
+          "negative_cosines": 0,
+          "median_weighted_ratio": 1.2579388671885616,
+          "max_weighted_ratio": 4.067168497132957,
+          "regional_gradient_projection_reversals": 0
+        },
+        "final_conv": {
+          "count": 10,
+          "median_cosine": 0.4574596838038324,
+          "negative_cosines": 1,
+          "median_weighted_ratio": 0.7734601692450461,
+          "max_weighted_ratio": 5.608954769629736,
+          "regional_gradient_projection_reversals": 0
+        }
+      }
+    },
+    {
+      "first_step": 4001,
+      "last_step": 8000,
+      "training": {
+        "loss_supervised": 0.03256387228611857,
+        "loss_consistency": 0.0026971975003834813,
+        "loss_boundary": 0.3304901638999581,
+        "boundary_half": 0.37156253539025785,
+        "boundary_full": 0.28941779378801585,
+        "boundary_band_fraction": 0.06340238077566028
+      },
+      "baseline_supervised": 0.030799400066025554,
+      "gradients": {
+        "combined_observed_parameters": {
+          "count": 20,
+          "median_cosine": 0.5089089536642846,
+          "negative_cosines": 3,
+          "median_weighted_ratio": 1.570352617405843,
+          "max_weighted_ratio": 4.328249025414969,
+          "regional_gradient_projection_reversals": 0
+        },
+        "half_upsampling": {
+          "count": 20,
+          "median_cosine": 0.5693703105301527,
+          "negative_cosines": 3,
+          "median_weighted_ratio": 1.5546071709777554,
+          "max_weighted_ratio": 4.533759401838667,
+          "regional_gradient_projection_reversals": 0
+        },
+        "final_conv": {
+          "count": 20,
+          "median_cosine": 0.43222732850522017,
+          "negative_cosines": 1,
+          "median_weighted_ratio": 1.6853783433898653,
+          "max_weighted_ratio": 5.23001480143826,
+          "regional_gradient_projection_reversals": 0
+        }
+      }
+    },
+    {
+      "first_step": 8001,
+      "last_step": 12000,
+      "training": {
+        "loss_supervised": 0.024465508423745633,
+        "loss_consistency": 0.002002016820551944,
+        "loss_boundary": 0.27772397495806217,
+        "boundary_half": 0.3350603710860014,
+        "boundary_full": 0.22038757748901844,
+        "boundary_band_fraction": 0.06384341102093458
+      },
+      "baseline_supervised": 0.022886548824608326,
+      "gradients": {
+        "combined_observed_parameters": {
+          "count": 20,
+          "median_cosine": 0.4623679284744864,
+          "negative_cosines": 3,
+          "median_weighted_ratio": 1.9630505575349764,
+          "max_weighted_ratio": 3.7848512149586266,
+          "regional_gradient_projection_reversals": 0
+        },
+        "half_upsampling": {
+          "count": 20,
+          "median_cosine": 0.2605868948174324,
+          "negative_cosines": 3,
+          "median_weighted_ratio": 1.995976762780532,
+          "max_weighted_ratio": 3.624083665605292,
+          "regional_gradient_projection_reversals": 0
+        },
+        "final_conv": {
+          "count": 20,
+          "median_cosine": 0.7014281271642986,
+          "negative_cosines": 2,
+          "median_weighted_ratio": 1.6962141254281515,
+          "max_weighted_ratio": 4.612585168950048,
+          "regional_gradient_projection_reversals": 0
+        }
+      }
+    },
+    {
+      "first_step": 12001,
+      "last_step": 15000,
+      "training": {
+        "loss_supervised": 0.02110828577230374,
+        "loss_consistency": 0.0015052296577293116,
+        "loss_boundary": 0.2528016258776188,
+        "boundary_half": 0.3184480036298434,
+        "boundary_full": 0.18715524926781654,
+        "boundary_band_fraction": 0.06354005627334118
+      },
+      "baseline_supervised": 0.01939779979797701,
+      "gradients": {
+        "combined_observed_parameters": {
+          "count": 15,
+          "median_cosine": 0.32604695948253465,
+          "negative_cosines": 3,
+          "median_weighted_ratio": 1.6347236585640386,
+          "max_weighted_ratio": 4.290632778923254,
+          "regional_gradient_projection_reversals": 0
+        },
+        "half_upsampling": {
+          "count": 15,
+          "median_cosine": 0.22765644595244447,
+          "negative_cosines": 3,
+          "median_weighted_ratio": 1.4570688696610494,
+          "max_weighted_ratio": 4.30415952520159,
+          "regional_gradient_projection_reversals": 0
+        },
+        "final_conv": {
+          "count": 15,
+          "median_cosine": 0.6402803158554601,
+          "negative_cosines": 1,
+          "median_weighted_ratio": 2.4271513661242516,
+          "max_weighted_ratio": 5.61604364064623,
+          "regional_gradient_projection_reversals": 0
+        }
+      }
+    }
+  ],
+  "plateau_observed_gradients": {
+    "first_step": 4000,
+    "last_step": 15000,
+    "count": 56,
+    "scope": "Concatenation of the two observed parameter tensors; not the whole model",
+    "median_weighted_ratio": 1.7165335850073018,
+    "ratios_above_one": 52,
+    "median_cosine": 0.46559337194602735,
+    "negative_cosines": 9
+  },
+  "old_runs": [
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/BDD/LA_BoundaryTransferBDD_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "LA",
+        "deterministic": 1,
+        "exp": "BoundaryTransferBDD",
+        "gpu": "3",
+        "labeled_bs": 2,
+        "labelnum": 8,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 80,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results/BDD",
+        "root_path": "/home/duanxuelong/Dataset/LA",
+        "seed": 1337,
+        "transfer_donor_mode": "cbcd",
+        "transfer_rampup_iterations": 2000,
+        "transfer_receiver_mode": "bdd",
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryTransferBDD_performance_0.txt": {
+          "dice_percent": 88.47,
+          "jc_percent": 79.52,
+          "hd95": 10.09,
+          "asd": 3.06
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 88.47,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 87.92,
+        "running_best_percent": 88.47
+      },
+      "source_hashes": {
+        "train_3D.py": "bace20f8b502b343fdbd9ab149556ef203074a93e3d96732dc5ae03f5aa173ed",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "6132e60c6461d2023c65a8c8f7baec0a1ea335e32032b7e83d3b10e8148c088d",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/BDD/MatchedCurrent/LA_BDDMatchedCurrent_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "LA",
+        "deterministic": 1,
+        "exp": "BDDMatchedCurrent",
+        "gpu": "3",
+        "labeled_bs": 2,
+        "labelnum": 8,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 80,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results/BDD/MatchedCurrent",
+        "root_path": "/home/duanxuelong/Dataset/LA",
+        "seed": 1337,
+        "transfer_donor_mode": "cbcd",
+        "transfer_matching_mode": "current",
+        "transfer_rampup_iterations": 2000,
+        "transfer_receiver_mode": "bdd",
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BDDMatchedCurrent_performance_0.txt": {
+          "dice_percent": 88.63,
+          "jc_percent": 79.7,
+          "hd95": 11.61,
+          "asd": 3.11
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 88.63,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 88.63,
+        "running_best_percent": 88.63
+      },
+      "source_hashes": {
+        "train_3D.py": "ec2c659a3070e29a6d0be592a8e56a3a73492f6f94c7fa074e3e3b2b7942b866",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "d1717a6448d0168c6ae0df6629325182e6d1f907e168730610ad466581e2d282",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/BDD/MatchingAblation/LA_BDDNoSimilarity_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "LA",
+        "deterministic": 1,
+        "exp": "BDDNoSimilarity",
+        "gpu": "3",
+        "labeled_bs": 2,
+        "labelnum": 8,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 80,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results/BDD/MatchingAblation",
+        "root_path": "/home/duanxuelong/Dataset/LA",
+        "seed": 1337,
+        "transfer_donor_mode": "cbcd",
+        "transfer_matching_mode": "no_similarity",
+        "transfer_rampup_iterations": 2000,
+        "transfer_receiver_mode": "bdd",
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BDDNoSimilarity_performance_0.txt": {
+          "dice_percent": 87.45,
+          "jc_percent": 77.96,
+          "hd95": 11.94,
+          "asd": 3.82
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 87.45,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 85.67,
+        "running_best_percent": 87.45
+      },
+      "source_hashes": {
+        "train_3D.py": "c9611aca94ffaf75477b05e65ef373dfc38965529d49cea6ca50cc3954ed1fc5",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "e3e851577c815c1fcf59f7a2ad610ba854a1dcab7bac95ef2246fa9a8a693e5d",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/BDD/MatchingAblation/LA_BDDRandomPairCurrent_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "LA",
+        "deterministic": 1,
+        "exp": "BDDRandomPairCurrent",
+        "gpu": "3",
+        "labeled_bs": 2,
+        "labelnum": 8,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 80,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results/BDD/MatchingAblation",
+        "root_path": "/home/duanxuelong/Dataset/LA",
+        "seed": 1337,
+        "transfer_donor_mode": "cbcd",
+        "transfer_matching_mode": "random_pair_current",
+        "transfer_rampup_iterations": 2000,
+        "transfer_receiver_mode": "bdd",
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BDDRandomPairCurrent_performance_0.txt": {
+          "dice_percent": 88.74,
+          "jc_percent": 79.87,
+          "hd95": 11.52,
+          "asd": 2.99
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 88.74,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 88.49,
+        "running_best_percent": 88.74
+      },
+      "source_hashes": {
+        "train_3D.py": "c9611aca94ffaf75477b05e65ef373dfc38965529d49cea6ca50cc3954ed1fc5",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "e3e851577c815c1fcf59f7a2ad610ba854a1dcab7bac95ef2246fa9a8a693e5d",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/BDD/ReceiverAblation/LA_BoundaryTransferBottomBDDReceiver_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "LA",
+        "deterministic": 1,
+        "exp": "BoundaryTransferBottomBDDReceiver",
+        "gpu": "2",
+        "labeled_bs": 2,
+        "labelnum": 8,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 80,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results/BDD/ReceiverAblation",
+        "root_path": "/home/duanxuelong/Dataset/LA",
+        "seed": 1337,
+        "transfer_donor_mode": "cbcd",
+        "transfer_rampup_iterations": 2000,
+        "transfer_receiver_mode": "bottom_bdd",
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryTransferBottomBDDReceiver_performance_0.txt": {
+          "dice_percent": 88.48,
+          "jc_percent": 79.49,
+          "hd95": 10.91,
+          "asd": 3.1
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 88.48,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 87.54,
+        "running_best_percent": 88.48
+      },
+      "source_hashes": {
+        "train_3D.py": "6b734c4748641f7c79a78792488705bd3a31b388f036921f362a1f120125ba97",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "48fe8c9010465df3f51005eae7f321a6bef505b925d4ab7639274735c1095f34",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/BDD/ReceiverAblation/LA_BoundaryTransferRandomReceiver_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "LA",
+        "deterministic": 1,
+        "exp": "BoundaryTransferRandomReceiver",
+        "gpu": "1",
+        "labeled_bs": 2,
+        "labelnum": 8,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 80,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results/BDD/ReceiverAblation",
+        "root_path": "/home/duanxuelong/Dataset/LA",
+        "seed": 1337,
+        "transfer_donor_mode": "cbcd",
+        "transfer_rampup_iterations": 2000,
+        "transfer_receiver_mode": "random",
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryTransferRandomReceiver_performance_0.txt": {
+          "dice_percent": 88.52,
+          "jc_percent": 79.55,
+          "hd95": 11.08,
+          "asd": 3.32
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 88.52,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 87.75,
+        "running_best_percent": 88.52
+      },
+      "source_hashes": {
+        "train_3D.py": "6b734c4748641f7c79a78792488705bd3a31b388f036921f362a1f120125ba97",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "48fe8c9010465df3f51005eae7f321a6bef505b925d4ab7639274735c1095f34",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/LA_BoundaryProbeW000_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.0,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "LA",
+        "deterministic": 1,
+        "exp": "BoundaryProbeW000",
+        "gpu": "7",
+        "labeled_bs": 2,
+        "labelnum": 8,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 80,
+        "num_workers": 4,
+        "output_path": "./results",
+        "root_path": "/home/duanxuelong/Dataset/LA",
+        "seed": 1337,
+        "use_boundary_probe": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryProbeW000_performance_0.txt": {
+          "dice_percent": 87.22,
+          "jc_percent": 77.57,
+          "hd95": 12.13,
+          "asd": 3.3
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 87.22,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 87.15,
+        "running_best_percent": 87.22
+      },
+      "source_hashes": {
+        "train_3D.py": "c281c187af3db95c5d3ea6b7ecd4e693fc1af5f89ee14a14eb99518d69b1df52",
+        "networks/VNet.py": "b823fb26ada92ccb452fdf93073fbd3442f0946dda08c75352703d6e33ff5aaf",
+        "networks/boundary_probe.py": "f955d8a9abac941055f3f056bfa5d7f5ef8e506e9fef29eab8445f2c89dc3e05",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/LA_BoundaryProbeW003_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "LA",
+        "deterministic": 1,
+        "exp": "BoundaryProbeW003",
+        "gpu": "7",
+        "labeled_bs": 2,
+        "labelnum": 8,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 80,
+        "num_workers": 4,
+        "output_path": "./results",
+        "root_path": "/home/duanxuelong/Dataset/LA",
+        "seed": 1337,
+        "use_boundary_probe": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryProbeW003_performance_0.txt": {
+          "dice_percent": 88.29,
+          "jc_percent": 79.19,
+          "hd95": 11.73,
+          "asd": 3.19
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 88.29,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 87.86,
+        "running_best_percent": 88.29
+      },
+      "source_hashes": {
+        "train_3D.py": "c281c187af3db95c5d3ea6b7ecd4e693fc1af5f89ee14a14eb99518d69b1df52",
+        "networks/VNet.py": "b823fb26ada92ccb452fdf93073fbd3442f0946dda08c75352703d6e33ff5aaf",
+        "networks/boundary_probe.py": "f955d8a9abac941055f3f056bfa5d7f5ef8e506e9fef29eab8445f2c89dc3e05",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/LA_BoundaryProbe_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.1,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "LA",
+        "deterministic": 1,
+        "exp": "BoundaryProbe",
+        "gpu": "0",
+        "labeled_bs": 2,
+        "labelnum": 8,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 80,
+        "num_workers": 4,
+        "output_path": "./results",
+        "root_path": "/home/duanxuelong/Dataset/LA",
+        "seed": 1337,
+        "use_boundary_probe": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryProbe_performance_0.txt": {
+          "dice_percent": 87.27,
+          "jc_percent": 77.7,
+          "hd95": 11.93,
+          "asd": 3.84
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 87.27,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 86.76,
+        "running_best_percent": 87.27
+      },
+      "source_hashes": {
+        "train_3D.py": "b8ed2120de988f38c3d741abc3146f109972e6b20a743a4bc1bbb82835c7ab95",
+        "networks/VNet.py": "b823fb26ada92ccb452fdf93073fbd3442f0946dda08c75352703d6e33ff5aaf",
+        "networks/boundary_probe.py": "f955d8a9abac941055f3f056bfa5d7f5ef8e506e9fef29eab8445f2c89dc3e05",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/LA_BoundaryTransferBottomDonorW003_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "LA",
+        "deterministic": 1,
+        "exp": "BoundaryTransferBottomDonorW003",
+        "gpu": "5",
+        "labeled_bs": 2,
+        "labelnum": 8,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 80,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results",
+        "root_path": "/home/duanxuelong/Dataset/LA",
+        "seed": 1337,
+        "transfer_donor_mode": "bottom",
+        "transfer_rampup_iterations": 2000,
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryTransferBottomDonorW003_performance_0.txt": {
+          "dice_percent": 87.94,
+          "jc_percent": 78.74,
+          "hd95": 9.09,
+          "asd": 2.82
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 87.94,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 87.21,
+        "running_best_percent": 87.94
+      },
+      "source_hashes": {
+        "train_3D.py": "93f9a14d954ca352d6eff38b405c968f7a15e0c55ed8a1c77cac7d09376b0f98",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "d6763a014f0c87866d19110dc138c231f546894190ec5bbb158d7879c5b87b90",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/LA_BoundaryTransferNoBoundaryW003_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "LA",
+        "deterministic": 1,
+        "exp": "BoundaryTransferNoBoundaryW003",
+        "gpu": "0",
+        "labeled_bs": 2,
+        "labelnum": 8,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 80,
+        "no_transfer_boundary_mask": true,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results",
+        "root_path": "/home/duanxuelong/Dataset/LA",
+        "seed": 1337,
+        "transfer_donor_mode": "cbcd",
+        "transfer_rampup_iterations": 2000,
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryTransferNoBoundaryW003_performance_0.txt": {
+          "dice_percent": 88.25,
+          "jc_percent": 79.11,
+          "hd95": 11.7,
+          "asd": 3.6
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 88.25,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 87.41,
+        "running_best_percent": 88.25
+      },
+      "source_hashes": {
+        "train_3D.py": "bf4f06d5577ce1fe8f3be777d63fac13ccb754c6bee9c49219afd48aa8171fde",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "b32dac3c71173c40cdb08d8861ad016dcd8e7022f7cc4b0b4a4370b1a9c72712",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/LA_BoundaryTransferNoUncertaintyW003_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "LA",
+        "deterministic": 1,
+        "exp": "BoundaryTransferNoUncertaintyW003",
+        "gpu": "0",
+        "labeled_bs": 2,
+        "labelnum": 8,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 80,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": true,
+        "num_workers": 4,
+        "output_path": "./results",
+        "root_path": "/home/duanxuelong/Dataset/LA",
+        "seed": 1337,
+        "transfer_donor_mode": "cbcd",
+        "transfer_rampup_iterations": 2000,
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryTransferNoUncertaintyW003_performance_0.txt": {
+          "dice_percent": 86.89,
+          "jc_percent": 77.19,
+          "hd95": 12.38,
+          "asd": 3.82
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 86.89,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 86.46,
+        "running_best_percent": 86.89
+      },
+      "source_hashes": {
+        "train_3D.py": "bf4f06d5577ce1fe8f3be777d63fac13ccb754c6bee9c49219afd48aa8171fde",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "b32dac3c71173c40cdb08d8861ad016dcd8e7022f7cc4b0b4a4370b1a9c72712",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/LA_BoundaryTransferRandomDonorW003_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "LA",
+        "deterministic": 1,
+        "exp": "BoundaryTransferRandomDonorW003",
+        "gpu": "0",
+        "labeled_bs": 2,
+        "labelnum": 8,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 80,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results",
+        "root_path": "/home/duanxuelong/Dataset/LA",
+        "seed": 1337,
+        "transfer_donor_mode": "random",
+        "transfer_rampup_iterations": 2000,
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryTransferRandomDonorW003_performance_0.txt": {
+          "dice_percent": 88.58,
+          "jc_percent": 79.63,
+          "hd95": 10.94,
+          "asd": 2.95
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 88.58,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 87.88,
+        "running_best_percent": 88.58
+      },
+      "source_hashes": {
+        "train_3D.py": "bf4f06d5577ce1fe8f3be777d63fac13ccb754c6bee9c49219afd48aa8171fde",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "b32dac3c71173c40cdb08d8861ad016dcd8e7022f7cc4b0b4a4370b1a9c72712",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/LA_BoundaryTransferW003_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "LA",
+        "deterministic": 1,
+        "exp": "BoundaryTransferW003",
+        "gpu": "7",
+        "labeled_bs": 2,
+        "labelnum": 8,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 80,
+        "num_workers": 4,
+        "output_path": "./results",
+        "root_path": "/home/duanxuelong/Dataset/LA",
+        "seed": 1337,
+        "transfer_rampup_iterations": 2000,
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryTransferW003_performance_0.txt": {
+          "dice_percent": 88.88,
+          "jc_percent": 80.08,
+          "hd95": 11.35,
+          "asd": 3.14
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 88.88,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 88.64,
+        "running_best_percent": 88.88
+      },
+      "source_hashes": {
+        "train_3D.py": "a48a118f2ab467a3d4283043eccf9eb6f2ac5b202fd32ad49e87e783f0e88ea9",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "e73832ab04f1892a391ab08389db7e04b64ab6507359104049e6998b01dc9f53",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/Pancreas_BoundaryProbeW001_6_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.01,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "Pancreas",
+        "deterministic": 1,
+        "exp": "BoundaryProbeW001",
+        "gpu": "0",
+        "labeled_bs": 2,
+        "labelnum": 6,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 62,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results",
+        "root_path": "/home/duanxuelong/Dataset/Pancreas",
+        "seed": 1337,
+        "transfer_donor_mode": "cbcd",
+        "transfer_rampup_iterations": 2000,
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": false,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryProbeW001_performance_0.txt": {
+          "dice_percent": 57.79,
+          "jc_percent": 43.09,
+          "hd95": 37.21,
+          "asd": 14.53
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 57.79,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 30.2,
+        "running_best_percent": 57.79
+      },
+      "source_hashes": {
+        "train_3D.py": "93f9a14d954ca352d6eff38b405c968f7a15e0c55ed8a1c77cac7d09376b0f98",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "d6763a014f0c87866d19110dc138c231f546894190ec5bbb158d7879c5b87b90",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/Pancreas_BoundaryProbeW003_6_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "Pancreas",
+        "deterministic": 1,
+        "exp": "BoundaryProbeW003",
+        "gpu": "3",
+        "labeled_bs": 2,
+        "labelnum": 6,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 62,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results",
+        "root_path": "/home/duanxuelong/Dataset/Pancreas",
+        "seed": 1337,
+        "transfer_donor_mode": "cbcd",
+        "transfer_rampup_iterations": 2000,
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": false,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryProbeW003FinalIter15000_performance_0.txt": {
+          "dice_percent": 13.88,
+          "jc_percent": 7.52,
+          "hd95": 88.89,
+          "asd": 42.7
+        },
+        "BoundaryProbeW003_performance_0.txt": {
+          "dice_percent": 55.67,
+          "jc_percent": 40.43,
+          "hd95": 39.58,
+          "asd": 14.0
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 55.67,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 13.88,
+        "running_best_percent": 55.67
+      },
+      "source_hashes": {
+        "train_3D.py": "93f9a14d954ca352d6eff38b405c968f7a15e0c55ed8a1c77cac7d09376b0f98",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "d6763a014f0c87866d19110dc138c231f546894190ec5bbb158d7879c5b87b90",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/Pancreas_BoundaryTransferBottomDonorW003_6_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "Pancreas",
+        "deterministic": 1,
+        "exp": "BoundaryTransferBottomDonorW003",
+        "gpu": "0",
+        "labeled_bs": 2,
+        "labelnum": 6,
+        "lamda_teacher": 0.3,
+        "max_iteration": 1,
+        "max_samples": 62,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results",
+        "root_path": "/home/duanxuelong/Dataset/Pancreas",
+        "seed": 1337,
+        "transfer_donor_mode": "bottom",
+        "transfer_rampup_iterations": 0,
+        "transfer_start_iteration": 0,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryTransferBottomDonorW003FinalIter15000_performance_0.txt": {
+          "dice_percent": 31.38,
+          "jc_percent": 18.97,
+          "hd95": 83.03,
+          "asd": 36.69
+        },
+        "BoundaryTransferBottomDonorW003_performance_0.txt": {
+          "dice_percent": 57.15,
+          "jc_percent": 41.56,
+          "hd95": 39.08,
+          "asd": 12.96
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 57.15,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 31.38,
+        "running_best_percent": 57.15
+      },
+      "source_hashes": {
+        "train_3D.py": "93f9a14d954ca352d6eff38b405c968f7a15e0c55ed8a1c77cac7d09376b0f98",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "d6763a014f0c87866d19110dc138c231f546894190ec5bbb158d7879c5b87b90",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/Pancreas_BoundaryTransferRandomDonorW003_6_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "Pancreas",
+        "deterministic": 1,
+        "exp": "BoundaryTransferRandomDonorW003",
+        "gpu": "5",
+        "labeled_bs": 2,
+        "labelnum": 6,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 62,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results",
+        "root_path": "/home/duanxuelong/Dataset/Pancreas",
+        "seed": 1337,
+        "transfer_donor_mode": "random",
+        "transfer_rampup_iterations": 2000,
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryTransferRandomDonorW003FinalIter15000_performance_0.txt": {
+          "dice_percent": 38.96,
+          "jc_percent": 25.9,
+          "hd95": 67.12,
+          "asd": 29.87
+        },
+        "BoundaryTransferRandomDonorW003_performance_0.txt": {
+          "dice_percent": 56.58,
+          "jc_percent": 41.07,
+          "hd95": 46.01,
+          "asd": 15.81
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 56.58,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 38.96,
+        "running_best_percent": 56.58
+      },
+      "source_hashes": {
+        "train_3D.py": "93f9a14d954ca352d6eff38b405c968f7a15e0c55ed8a1c77cac7d09376b0f98",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "d6763a014f0c87866d19110dc138c231f546894190ec5bbb158d7879c5b87b90",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/Pancreas_BoundaryTransferW001_6_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.01,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "Pancreas",
+        "deterministic": 1,
+        "exp": "BoundaryTransferW001",
+        "gpu": "1",
+        "labeled_bs": 2,
+        "labelnum": 6,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 62,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results",
+        "root_path": "/home/duanxuelong/Dataset/Pancreas",
+        "seed": 1337,
+        "transfer_donor_mode": "cbcd",
+        "transfer_rampup_iterations": 2000,
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryTransferW001_performance_0.txt": {
+          "dice_percent": 42.6,
+          "jc_percent": 28.35,
+          "hd95": 65.44,
+          "asd": 29.6
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 42.6,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 16.17,
+        "running_best_percent": 42.6
+      },
+      "source_hashes": {
+        "train_3D.py": "93f9a14d954ca352d6eff38b405c968f7a15e0c55ed8a1c77cac7d09376b0f98",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "d6763a014f0c87866d19110dc138c231f546894190ec5bbb158d7879c5b87b90",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    },
+    {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/Pancreas_BoundaryTransferW003_6_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "config": {
+        "base_lr": 0.01,
+        "batch_size": 4,
+        "boundary_feature_level": 3,
+        "boundary_hidden_channels": 32,
+        "boundary_weight": 0.03,
+        "cbcd_log_interval": 200,
+        "cbcd_occlusion_interval": 1000,
+        "cbcd_occlusion_k": 16,
+        "cbcd_topk": 16,
+        "dataset_name": "Pancreas",
+        "deterministic": 1,
+        "exp": "BoundaryTransferW003",
+        "gpu": "4",
+        "labeled_bs": 2,
+        "labelnum": 6,
+        "lamda_teacher": 0.3,
+        "max_iteration": 15000,
+        "max_samples": 62,
+        "no_transfer_boundary_mask": false,
+        "no_transfer_uncertainty_mask": false,
+        "num_workers": 4,
+        "output_path": "./results",
+        "root_path": "/home/duanxuelong/Dataset/Pancreas",
+        "seed": 1337,
+        "transfer_donor_mode": "cbcd",
+        "transfer_rampup_iterations": 2000,
+        "transfer_start_iteration": 2000,
+        "transfer_strength": 0.1,
+        "transfer_topk": 16,
+        "use_boundary_probe": true,
+        "use_boundary_transfer": true,
+        "val_interval": 200
+      },
+      "performance": {
+        "BoundaryTransferW003_performance_0.txt": {
+          "dice_percent": 62.6,
+          "jc_percent": 47.03,
+          "hd95": 34.42,
+          "asd": 11.46
+        }
+      },
+      "validation_count": 72,
+      "best_logged_dice_percent": 62.6,
+      "final_logged": {
+        "iteration": 15000,
+        "dice_percent": 17.91,
+        "running_best_percent": 62.6
+      },
+      "source_hashes": {
+        "train_3D.py": "93f9a14d954ca352d6eff38b405c968f7a15e0c55ed8a1c77cac7d09376b0f98",
+        "networks/VNet.py": "0b36ccddbef078302f5868e44af48b0188b0edc6baa2bb13b7665c6f725142ff",
+        "networks/boundary_probe.py": "d6763a014f0c87866d19110dc138c231f546894190ec5bbb158d7879c5b87b90",
+        "utils/losses.py": "c58b80f88ad815369a70c5e3b6e9b79a0c0f59f63e3376d9ab2f1525366ae7f9",
+        "utils/test_patch.py": "90cf57ed1b5cd438bbad21999584bf1aea8ae40bae3664c33d63ba21c669412e"
+      }
+    }
+  ],
+  "coarse_target_scope": "Full-volume labels trimmed to even shapes and aligned to their origin. This illustrates target mixing; it is not a measurement on actual augmented training crops and does not establish a cause of held-out performance changes.",
+  "coarse_target_diagnostics": [
+    {
+      "cache_file": "000.npy",
+      "analyzed_shape": [
+        182,
+        140,
+        88
+      ],
+      "mixed_fraction_of_boundary_cells": 0.3021276595744681,
+      "band_mass_fraction_in_mixed_cells": 0.4327014639224997,
+      "unconstrained_half_head_minimum_CE_full_volume": 0.24802019977580245
+    },
+    {
+      "cache_file": "001.npy",
+      "analyzed_shape": [
+        198,
+        142,
+        88
+      ],
+      "mixed_fraction_of_boundary_cells": 0.2978391175137259,
+      "band_mass_fraction_in_mixed_cells": 0.42486841868903696,
+      "unconstrained_half_head_minimum_CE_full_volume": 0.2510307279308742
+    },
+    {
+      "cache_file": "002.npy",
+      "analyzed_shape": [
+        212,
+        140,
+        88
+      ],
+      "mixed_fraction_of_boundary_cells": 0.29898159935192686,
+      "band_mass_fraction_in_mixed_cells": 0.42530249403243064,
+      "unconstrained_half_head_minimum_CE_full_volume": 0.24685311616667252
+    },
+    {
+      "cache_file": "003.npy",
+      "analyzed_shape": [
+        180,
+        134,
+        88
+      ],
+      "mixed_fraction_of_boundary_cells": 0.30600838379133677,
+      "band_mass_fraction_in_mixed_cells": 0.4415322580645161,
+      "unconstrained_half_head_minimum_CE_full_volume": 0.2557267922071714
+    },
+    {
+      "cache_file": "004.npy",
+      "analyzed_shape": [
+        190,
+        142,
+        88
+      ],
+      "mixed_fraction_of_boundary_cells": 0.30398646660782586,
+      "band_mass_fraction_in_mixed_cells": 0.4363559579269661,
+      "unconstrained_half_head_minimum_CE_full_volume": 0.25295938104224336
+    },
+    {
+      "cache_file": "005.npy",
+      "analyzed_shape": [
+        186,
+        146,
+        88
+      ],
+      "mixed_fraction_of_boundary_cells": 0.30171222589366176,
+      "band_mass_fraction_in_mixed_cells": 0.4315498888256335,
+      "unconstrained_half_head_minimum_CE_full_volume": 0.24880746472095563
+    },
+    {
+      "cache_file": "006.npy",
+      "analyzed_shape": [
+        172,
+        148,
+        88
+      ],
+      "mixed_fraction_of_boundary_cells": 0.2960509714862478,
+      "band_mass_fraction_in_mixed_cells": 0.4210715206980474,
+      "unconstrained_half_head_minimum_CE_full_volume": 0.2429886004627716
+    },
+    {
+      "cache_file": "007.npy",
+      "analyzed_shape": [
+        182,
+        146,
+        88
+      ],
+      "mixed_fraction_of_boundary_cells": 0.2998955067920585,
+      "band_mass_fraction_in_mixed_cells": 0.4284807843039676,
+      "unconstrained_half_head_minimum_CE_full_volume": 0.24907873949059237
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "scope": "saved training-time records only",
+  "runs": {
+    "LA_zero": {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/LA_BoundaryProbeW000_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "csv_sha256": "6feda24db7bfec4d3fc7ea2dddb59ebeac307ac2a822a7876411b666aad8d692",
+      "all_rows": 15,
+      "analysis_interval": "4000 < iteration <= 15000",
+      "n": 11,
+      "median": {
+        "top_delta": -0.022127151489257812,
+        "bottom_delta": 0.001943826675415039,
+        "random_delta": 0.006795406341552734
+      },
+      "top_gt_random": 1,
+      "top_positive": 1
+    },
+    "LA_probe": {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/LA_BoundaryProbeW003_8_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "csv_sha256": "dc0efabf1b458c4ae0ae8b2aae174c02b68a22b122fcfd697a7cee37e316d777",
+      "all_rows": 15,
+      "analysis_interval": "4000 < iteration <= 15000",
+      "n": 11,
+      "median": {
+        "top_delta": 1.512717843055725,
+        "bottom_delta": 0.02395009994506836,
+        "random_delta": 0.1728922724723816
+      },
+      "top_gt_random": 11,
+      "top_positive": 11
+    },
+    "Pancreas_probe": {
+      "directory": "/aita_data/home/aita_duanxuelong/MT+DuCiSC+BGCE/MT-DuCiSC/results/Pancreas_BoundaryProbeW003_6_labeled_0.01_0.99_seed1337/teacher_0.3_none",
+      "csv_sha256": "bdd2d23eb4b3aed92a9ad417fe51ac4826a963edaade6484fef71fc1c7422079",
+      "all_rows": 15,
+      "analysis_interval": "4000 < iteration <= 15000",
+      "n": 11,
+      "median": {
+        "top_delta": 2.6305184364318848,
+        "bottom_delta": 0.04255056381225586,
+        "random_delta": 0.29964011907577515
+      },
+      "top_gt_random": 11,
+      "top_positive": 11
+    }
+  },
+  "limits": [
+    "Repeated diagnostic batches from one seed, not independent replications.",
+    "Only auxiliary probe is recomputed; segmentation decoder is not replayed.",
+    "Scores use train-mode pre-update features; occlusion uses eval-mode probe after SGD.",
+    "Absolute elementwise gradient-times-feature scores do not encode signed utility.",
+    "Zero-weight probe is untrained; its edge accuracy is not a fair readout control."
+  ]
+}

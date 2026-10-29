@@ -1,0 +1,106 @@
+{
+  "core_network_gradient_teacher_and_sliding_window_checks": "passed",
+  "real_data": {
+    "LA": {
+      "full_resolution_patch": [
+        112,
+        112,
+        80
+      ],
+      "supervised_and_consistency_steps_passed": true,
+      "max_raw_objective_error": 1.6577541783746597e-08
+    },
+    "Pancreas": {
+      "full_resolution_patch": [
+        96,
+        96,
+        96
+      ],
+      "supervised_and_consistency_steps_passed": true,
+      "max_raw_objective_error": 9.685754753796516e-09
+    },
+    "BraTS19": {
+      "full_resolution_patch": [
+        96,
+        96,
+        96
+      ],
+      "supervised_and_consistency_steps_passed": true,
+      "max_raw_objective_error": 2.607703164514419e-09
+    }
+  },
+  "matched_splits": [
+    "LA_8l",
+    "LA_16l",
+    "Pancreas_6l",
+    "Pancreas_12l",
+    "BraTS19_25l",
+    "BraTS19_50l"
+  ],
+  "preserved_parent_source_and_results_hashes_verified": true,
+  "source_sha256": {
+    "code/train.py": "9774188a851e27606142541d54cb3e5e3af824ac81a9091d516e7166cbf8b0ed",
+    "code/data.py": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d",
+    "code/objectives.py": "898393753e2dd6db52ec91416352ec6cdb91bad61b2c03a4da67433380f61b1a",
+    "code/evaluate.py": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421",
+    "code/networks/__init__.py": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946",
+    "code/networks/vnet_ds.py": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+  },
+  "full_checkpoint_resume_verified": true,
+  "six_formal_runs_verified": [
+    {
+      "dataset": "LA",
+      "label_percent": 10,
+      "pid": 2739668,
+      "gpu": 4,
+      "verified_iteration": 180,
+      "all_training_settings_match_parent": true,
+      "split_manifest_matches_parent": true
+    },
+    {
+      "dataset": "LA",
+      "label_percent": 20,
+      "pid": 2739677,
+      "gpu": 6,
+      "verified_iteration": 220,
+      "all_training_settings_match_parent": true,
+      "split_manifest_matches_parent": true
+    },
+    {
+      "dataset": "Pancreas",
+      "label_percent": 10,
+      "pid": 2739679,
+      "gpu": 2,
+      "verified_iteration": 60,
+      "all_training_settings_match_parent": true,
+      "split_manifest_matches_parent": true
+    },
+    {
+      "dataset": "Pancreas",
+      "label_percent": 20,
+      "pid": 2739680,
+      "gpu": 3,
+      "verified_iteration": 70,
+      "all_training_settings_match_parent": true,
+      "split_manifest_matches_parent": true
+    },
+    {
+      "dataset": "BraTS19",
+      "label_percent": 10,
+      "pid": 2739681,
+      "gpu": 5,
+      "verified_iteration": 190,
+      "all_training_settings_match_parent": true,
+      "split_manifest_matches_parent": true
+    },
+    {
+      "dataset": "BraTS19",
+      "label_percent": 20,
+      "pid": 2739682,
+      "gpu": 6,
+      "verified_iteration": 200,
+      "all_training_settings_match_parent": true,
+      "split_manifest_matches_parent": true
+    }
+  ]
+}
